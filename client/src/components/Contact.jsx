@@ -13,7 +13,10 @@ function Contact() {
   const handleSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/contact", form);
+     const res = await axios.post(
+  "https://portfolio-backend-eumf.onrender.com/api/contact",
+  form
+);
       setMsg(res.data.msg);
       setForm({ name: "", email: "", message: "" });
     } catch (err) {
