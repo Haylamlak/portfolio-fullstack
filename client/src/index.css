@@ -1,0 +1,16 @@
+html{
+scroll-behavior:smooth;
+}
+
+
+
+body{
+background:#020617;
+color:white;
+transition:0.3s;
+}
+
+body.light-mode{
+background:white;
+color:black;
+}
