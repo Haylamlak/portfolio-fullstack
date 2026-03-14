@@ -24,7 +24,7 @@ function Projects(){
 
           <div className="project-links">
             <a href="https://haylamlak.github.io/passwordGenerators">Live Demo</a>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/Haylamlak/passwordGenerators">GitHub</a>
           </div>
 
         </div>
@@ -44,7 +44,7 @@ function Projects(){
 
           <div className="project-links">
             <a href="https://haylamlak.github.io/My_Portfolio">Live Demo</a>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/Haylamlak/My_Portfolio">GitHub</a>
           </div>
 
         </div>
@@ -57,13 +57,13 @@ function Projects(){
             <img src={calculatorApp} alt="calculatorApp"/>
           </div>
 
-          <h3>Portfolio Website</h3>
+          <h3>Calculator App</h3>
 
-          <p>Responsive personal portfolio website showcasing projects, skills, and contact form, built using React, CSS, and modern web practices.</p>
+          <p>A responsive web-based calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The application is designed with a clean user interface and works smoothly on both desktop and mobile devices.</p>
 
           <div className="project-links">
             <a href="https://haylamlak.github.io/My_Portfolio/calculator/index.html">Live Demo</a>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/Haylamlak/calculator">GitHub</a>
           </div>
 
         </div>

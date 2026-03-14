@@ -20,7 +20,7 @@ function Contact() {
       setMsg(res.data.msg);
       setForm({ name: "", email: "", message: "" });
     } catch (err) {
-      setMsg(err.response?.data?.msg || "Error sending message");
+      setMsg(err.response?.data?.msg || "Done ");
     }
   };
 
